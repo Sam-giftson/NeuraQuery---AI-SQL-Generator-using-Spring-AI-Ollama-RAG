@@ -1,0 +1,23 @@
+Table: emp
+
+Columns:
+empno
+ename
+job
+mgr
+hiredate
+sal
+comm
+deptno
+
+Rules:
+- Use emp for employee table
+- Use sal for salary
+- Use job for designation
+
+Valid job values:
+MANAGER
+CLERK
+SALESMAN
+ANALYST
+PRESIDENT

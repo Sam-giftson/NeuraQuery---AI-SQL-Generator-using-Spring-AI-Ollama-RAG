@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI SQL Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI SQL Generator</h1>
+
+    <p class="subtitle">
+        Convert natural language into SQL using Spring AI + Ollama
+    </p>
+
+    <textarea id="question"
+              placeholder="Example: average salary of managers"></textarea>
+
+    <button onclick="generateSql()">
+        Generate SQL
+    </button>
+
+    <div class="output-title">
+        Generated SQL
+    </div>
+
+    <pre id="output"></pre>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
